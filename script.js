@@ -1,7 +1,7 @@
 // Define all possible choices
 const choices = ["rock", "paper", "scissors"];
 
-// Get elements from the page to update the page
+// Get elements from the page to update
 const userChoiceText = document.getElementById("user-choice");
 const computerChoiceText = document.getElementById("computer-choice");
 const resultText = document.getElementById("result");
