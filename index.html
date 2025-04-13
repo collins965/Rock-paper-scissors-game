@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+
+  <!-- TailwindCSS-->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+
+  <!-- Title -->
+  <h1 class="text-3xl font-bold mb-8">Rock Paper Scissors</h1>
+
+  <!-- Buttons with unique IDs -->
+  <div class="flex gap-6 mb-6">
+    <button id="rock-btn" class="bg-blue-500 text-white px-4 py-2 rounded">Rock</button>
+    <button id="paper-btn" class="bg-green-500 text-white px-4 py-2 rounded">Paper</button>
+    <button id="scissors-btn" class="bg-red-500 text-white px-4 py-2 rounded">Scissors</button>
+  </div>
+
+  <!-- Area to show choices and result -->
+  <div class="text-center">
+    <p id="user-choice" class="mb-2 text-lg"></p>
+    <p id="computer-choice" class="mb-2 text-lg"></p>
+    <p id="result" class="text-xl font-semibold"></p>
+  </div>
+
+</body>
+</html>
